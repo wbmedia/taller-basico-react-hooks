@@ -1,24 +1,13 @@
-const Person = (props) => {
-  return React.createElement("div", {}, [
-    React.createElement("h3", {}, props.name),
-    React.createElement("h3", {}, props.email),
-    React.createElement("h3", {}, props.role),
-  ]);
-};
+import React from "react";
+import ReactDOM from "react-dom";
+import Person from "./components/Person";
 
 const App = () => {
-  return React.createElement("div", {}, [
-    React.createElement(
-      "h1",
-      {},
-      "Bienvenido al Taller de React Hooks Basico!"
-    ),
-    React.createElement(Person, {
-      name: "Antonio Nicasio",
-      email: "antonio.nicasio.herrera@gmail.com",
-      role: "Software Engineer",
-    }),
-  ]);
+  return (
+    <div>
+      <Person />
+    </div>
+  );
 };
 
 ReactDOM.render(React.createElement(App), document.getElementById("root"));
