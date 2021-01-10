@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Person from "./components/Person";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Layout from "./layout/Layout";
 
 const App = () => {
   return (
     <div>
-      <Person />
+      <Layout></Layout>
     </div>
   );
 };
