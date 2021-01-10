@@ -4,9 +4,10 @@
   "description": "Taller Basico de React Hooks",
   "main": "src/App.js",
   "dependencies": {
+    "firebase": "8.0.2",
+    "firestore": "^1.1.6",
     "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "firebase": "8.0.2"
+    "react-dom": "17.0.1"
   },
   "devDependencies": {
     "eslint": "^7.17.0",
