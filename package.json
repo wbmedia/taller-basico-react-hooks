@@ -4,9 +4,11 @@
   "description": "Taller Basico de React Hooks",
   "main": "src/App.js",
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "firebase": "8.0.2",
     "firestore": "^1.1.6",
     "react": "17.0.1",
+    "react-bootstrap": "^1.4.3",
     "react-dom": "17.0.1"
   },
   "devDependencies": {
