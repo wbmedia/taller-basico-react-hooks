@@ -1,12 +1,24 @@
 {
   "name": "taller-react",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Taller Basico de React Hooks",
+  "main": "src/App.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "prettier": "^2.2.1"
+  },
   "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Javascript",
+    "React",
+    "React Hooks"
+  ],
+  "author": "Antonio Nicasio",
   "license": "ISC"
 }
