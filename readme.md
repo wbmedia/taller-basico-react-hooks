@@ -11,3 +11,7 @@
 #### 8 - Create Simple UI 3 steps using react bootstrap
 #### 9 - CRUD with Firebase and React Hooks
 #### 10 - End of workshop
+
+
+## visit my YT Channel
+#### https://www.youtube.com/channel/UCzTXqcatIK-b7KSaZyb4Xyw
