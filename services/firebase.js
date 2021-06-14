@@ -13,6 +13,10 @@ var firebaseConfig = {
   measurementId: "G-QSVTYY0PDG",
 };
 
-const fb = firebase.initializeApp(firebaseConfig);
-
-export const db = fb.firestore();
+try {
+  const fb = firebase.initializeApp(firebaseConfig);
+  var db = fb.firestore();
+} catch (err) {
+  console.log(err);
+}
+export default db;
